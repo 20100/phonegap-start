@@ -1,40 +1,19 @@
-<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<html>
+<!doctype html>
+<html lang="fr">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>Bienvenue sur mybd.fr</title>
+        <meta charset="utf-8"/>
         <meta name="description" content="Base de donn&eacute;e sur les Bandes dessin&eacute;es"/>
         <meta name="author" content="Christophe"/>
         <meta name="HandheldFriendly" content="True"/>
         <meta name="MobileOptimized" content="320"/>
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
-        <link rel="shortcut icon" href="img/favicon.ico"/>
-        <link rel="apple-touch-icon" href="img/logo-57.png"/>
-        <link rel="apple-touch-icon" sizes="72x72" href="img/logo-72.png"/>
-        <link rel="apple-touch-icon" sizes="114x114" href="img/logo-114.png"/>
-        <link rel="apple-touch-startup-image" href="img/splash-touch.png"/>
+        <link rel="shortcut icon" href="../img/favicon.ico"/>
+        <link rel="apple-touch-icon" href="../img/logo-57.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="../img/logo-72.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="../img/logo-114.png"/>
+        <link rel="apple-touch-startup-image" href="../img/splash-touch.png"/>
 
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 
@@ -94,22 +73,10 @@
                 charger();
             })
         </script>
-        
+
     </head>
+
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready">
-                <p class="status pending blink">Connecting to Device</p>
-                <p class="status complete blink hide">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova-2.0.0.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-            <body>
         <div id="home" data-role="page">
             <div data-role="header"><h1>myBD.fr</h1></div>
             <div data-role="content">
@@ -206,6 +173,5 @@
             </div>
             <div data-role="footer"><h6>&copy; MOI</h6></div>
         </div>
-    </body>
     </body>
 </html>
